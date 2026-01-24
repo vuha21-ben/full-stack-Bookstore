@@ -1,0 +1,23 @@
+.book-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Ảnh bìa sách */
+.book-image {
+  width: 100%;
+  height: 260px;        /* chiều cao cố định */
+  object-fit: cover;   /* cắt vừa khung, không méo */
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+body {
+  background-color: black;
+}
